@@ -352,20 +352,20 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0556610567" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
-      <a href="/" class="logo-link"><img class="logo" src="/assets/site-----image-1.webp" alt="עו" ד אורית ענת שחר"></a>
+      <a href="/" class="logo-link"><img class="logo" src="/assets/site-----image-1.webp" alt="עו" ד="" אורית="" ענת="" שחר"=""></a>
     </div><ul class="nav-menu" id="navMenu"><li><a href="#services">שירותים</a></li><li><a href="#benefits">יתרונות</a></li><li><a href="#process">תהליך</a></li><li><a href="#case-studies">תיקי לקוחות</a></li><li><a href="#stats">נתונים</a></li><li class="mobile-contact-link nav-cta-mobile-item"><a href="#contact" class="nav-cta-btn">צור קשר</a></li></ul></div>
     
     <div class="nav-cta-container">
@@ -814,7 +814,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0556610567';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -842,10 +842,10 @@
     <div class="hero-cta-row">
       <a href="#contact" class="btn-primary">
         <span>לתיאום ייעוץ משפטי</span>
-        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
       </a>
       <a href="tel:0556610567" class="btn-secondary">
-        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
         <span>התקשרו עכשיו: 055-6610567</span>
       </a>
     </div>
@@ -853,11 +853,11 @@
 
   <div class="index-hero-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,60 L0,30 L300,15 L600,25 L900,12 L1200,20 L1200,60 Z" fill="#FFFFFF"/>
-      <line x1="0" y1="30" x2="300" y2="15" stroke="#C8A45D" stroke-width="2" opacity="0.6"/>
-      <line x1="300" y1="15" x2="600" y2="25" stroke="#C8A45D" stroke-width="2" opacity="0.6"/>
-      <line x1="600" y1="25" x2="900" y2="12" stroke="#C8A45D" stroke-width="2" opacity="0.6"/>
-      <line x1="900" y1="12" x2="1200" y2="20" stroke="#C8A45D" stroke-width="2" opacity="0.6"/>
+      <path d="M0,60 L0,30 L300,15 L600,25 L900,12 L1200,20 L1200,60 Z" fill="#FFFFFF"></path>
+      <line x1="0" y1="30" x2="300" y2="15" stroke="#C8A45D" stroke-width="2" opacity="0.6"></line>
+      <line x1="300" y1="15" x2="600" y2="25" stroke="#C8A45D" stroke-width="2" opacity="0.6"></line>
+      <line x1="600" y1="25" x2="900" y2="12" stroke="#C8A45D" stroke-width="2" opacity="0.6"></line>
+      <line x1="900" y1="12" x2="1200" y2="20" stroke="#C8A45D" stroke-width="2" opacity="0.6"></line>
     </svg>
   </div>
 </section>
@@ -876,10 +876,10 @@
             <article class="index-services-section__card">
                 <div class="index-services-section__card-icon">
                     <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M2 20h20"/>
-                        <path d="M5 17l2-4h10l2 4"/>
-                        <path d="M12 13V7"/>
-                        <path d="M9 7h6"/>
+                        <path d="M2 20h20"></path>
+                        <path d="M5 17l2-4h10l2 4"></path>
+                        <path d="M12 13V7"></path>
+                        <path d="M9 7h6"></path>
                     </svg>
                 </div>
                 <h3 class="index-services-section__card-title">ליקויי בנייה בדירה החדשה</h3>
@@ -891,8 +891,8 @@
             <article class="index-services-section__card">
                 <div class="index-services-section__card-icon">
                     <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="10"/>
-                        <polyline points="12 6 12 12 16 14"/>
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
                     </svg>
                 </div>
                 <h3 class="index-services-section__card-title">איחור במסירה או אי-מסירה</h3>
@@ -904,11 +904,11 @@
             <article class="index-services-section__card">
                 <div class="index-services-section__card-icon">
                     <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-                        <polyline points="14 2 14 8 20 8"/>
-                        <line x1="16" y1="13" x2="8" y2="13"/>
-                        <line x1="16" y1="17" x2="8" y2="17"/>
-                        <polyline points="10 9 9 9 8 9"/>
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                        <polyline points="10 9 9 9 8 9"></polyline>
                     </svg>
                 </div>
                 <h3 class="index-services-section__card-title">הפרת חוזה מצד הקבלן</h3>
@@ -922,9 +922,9 @@
     <div class="index-services-section__divider-wrapper" aria-hidden="true" data-no-icon-edit="true">
         <svg viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
             <!-- Warm white wave (closest to section) -->
-            <path d="M0,80 L0,30 Q150,45 300,28 T600,32 Q750,28 900,35 T1200,30 L1200,80 Z" fill="var(--bg-dark)"/>
+            <path d="M0,80 L0,30 Q150,45 300,28 T600,32 Q750,28 900,35 T1200,30 L1200,80 Z" fill="var(--bg-dark)"></path>
             <!-- Pale gray wave (transitioning to next section) -->
-            <path d="M0,80 L0,45 Q200,60 400,42 T800,48 Q1000,42 1200,45 L1200,80 Z" fill="var(--bg-dark)" opacity="0.5"/>
+            <path d="M0,80 L0,45 Q200,60 400,42 T800,48 Q1000,42 1200,45 L1200,80 Z" fill="var(--bg-dark)" opacity="0.5"></path>
         </svg>
     </div>
 </section>
@@ -984,7 +984,7 @@
                 <div class="index-benefits-section__quote-panel">
                     <div class="index-benefits-section__quote-mark" aria-hidden="true">
                         <svg data-element-type="icon" data-icon-type="svg" width="32" height="28" viewBox="0 0 32 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0 28H12L18 14V0H0V14H8L4 28ZM14 28H26L32 14V0H14V14H22L18 28Z" fill="currentColor"/>
+                            <path d="M0 28H12L18 14V0H0V14H8L4 28ZM14 28H26L32 14V0H14V14H22L18 28Z" fill="currentColor"></path>
                         </svg>
                     </div>
                     <blockquote class="index-benefits-section__quote-text">
@@ -1000,9 +1000,9 @@
     <div class="index-benefits-section__divider-wrapper">
         <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
             <!-- Dark Navy angled plane -->
-            <path d="M0,100 L0,0 L1200,100 Z" fill="#FFFFFF"/>
+            <path d="M0,100 L0,0 L1200,100 Z" fill="#FFFFFF"></path>
             <!-- Gold accent line following the angle -->
-            <line x1="0" y1="6" x2="1200" y2="100" stroke="var(--accent)" stroke-width="2" opacity="0.8"/>
+            <line x1="0" y1="6" x2="1200" y2="100" stroke="var(--accent)" stroke-width="2" opacity="0.8"></line>
         </svg>
     </div>
 </section>
@@ -1059,8 +1059,8 @@
   <!-- Bottom divider: paper-sheet transition -->
   <div class="index-process-section__divider-wrapper" aria-hidden="true">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,30 Q150,10 300,25 T600,20 Q750,15 900,28 T1200,22 L1200,80 Z" fill="var(--bg-light)"/>
-      <path d="M0,80 L0,45 Q150,30 300,40 T600,35 Q750,32 900,42 T1200,38 L1200,80 Z" fill="var(--bg-light)" opacity="0.6"/>
+      <path d="M0,80 L0,30 Q150,10 300,25 T600,20 Q750,15 900,28 T1200,22 L1200,80 Z" fill="var(--bg-light)"></path>
+      <path d="M0,80 L0,45 Q150,30 300,40 T600,35 Q750,32 900,42 T1200,38 L1200,80 Z" fill="var(--bg-light)" opacity="0.6"></path>
     </svg>
   </div>
 </section>
@@ -1125,9 +1125,9 @@
   <!-- Bottom Divider: Thin steel-blue rule with gold square marker -->
   <div class="index-case-studies-section__divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 24" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <line x1="0" y1="12" x2="540" y2="12" stroke="var(--secondary)" stroke-width="1" opacity="0.4"/>
-      <rect x="585" y="6" width="30" height="12" fill="var(--accent)" opacity="0.8"/>
-      <line x1="660" y1="12" x2="1200" y2="12" stroke="var(--secondary)" stroke-width="1" opacity="0.4"/>
+      <line x1="0" y1="12" x2="540" y2="12" stroke="var(--secondary)" stroke-width="1" opacity="0.4"></line>
+      <rect x="585" y="6" width="30" height="12" fill="var(--accent)" opacity="0.8"></rect>
+      <line x1="660" y1="12" x2="1200" y2="12" stroke="var(--secondary)" stroke-width="1" opacity="0.4"></line>
     </svg>
   </div>
 </section>
@@ -1157,21 +1157,21 @@
     <div class="index-stats-section__badges">
       <div class="index-stats-section__badge">
         <svg class="index-stats-section__badge-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
         </svg>
         <span class="index-stats-section__badge-label">תקשורת ברורה ושקופה</span>
       </div>
       <div class="index-stats-section__badge">
         <svg class="index-stats-section__badge-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-          <line x1="3" y1="9" x2="21" y2="9"/>
-          <line x1="9" y1="21" x2="9" y2="9"/>
+          <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="3" y1="9" x2="21" y2="9"></line>
+          <line x1="9" y1="21" x2="9" y2="9"></line>
         </svg>
         <span class="index-stats-section__badge-label">אסטרטגיה מבוססת ראיות</span>
       </div>
       <div class="index-stats-section__badge">
         <svg class="index-stats-section__badge-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
         </svg>
         <span class="index-stats-section__badge-label">ייצוג אסרטיבי אל מול קבלנים</span>
       </div>
@@ -1181,11 +1181,11 @@
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="index-stats-fade" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stop-color="#2A3F5F" stop-opacity="0"/>
-          <stop offset="100%" stop-color="#1F2A44" stop-opacity="1"/>
+          <stop offset="0%" stop-color="#2A3F5F" stop-opacity="0"></stop>
+          <stop offset="100%" stop-color="#1F2A44" stop-opacity="1"></stop>
         </linearGradient>
       </defs>
-      <rect x="0" y="0" width="1200" height="80" fill="url(#index-stats-fade)"/>
+      <rect x="0" y="0" width="1200" height="80" fill="url(#index-stats-fade)"></rect>
     </svg>
   </div>
 </section>
@@ -1215,28 +1215,28 @@
       <form class="contact-form index-contact-section__form">
         <div class="index-contact-section__form-group">
           <label for="index-contact-name" class="index-contact-section__label">שם מלא</label>
-          <input type="text" id="index-contact-name" name="name" class="index-contact-section__input" placeholder="הזינו את שמכם המלא" required>
+          <input type="text" id="index-contact-name" name="name" class="index-contact-section__input" placeholder="הזינו את שמכם המלא" required="">
         </div>
 
         <div class="index-contact-section__form-group">
           <label for="index-contact-email" class="index-contact-section__label">דוא״ל</label>
-          <input type="email" id="index-contact-email" name="email" class="index-contact-section__input" placeholder="example@email.com" required>
+          <input type="email" id="index-contact-email" name="email" class="index-contact-section__input" placeholder="example@email.com" required="">
         </div>
 
         <div class="index-contact-section__form-group">
           <label for="index-contact-phone" class="index-contact-section__label">טלפון</label>
-          <input type="tel" id="index-contact-phone" name="phone" class="index-contact-section__input" placeholder="050-0000000" required>
+          <input type="tel" id="index-contact-phone" name="phone" class="index-contact-section__input" placeholder="050-0000000" required="">
         </div>
 
         <div class="index-contact-section__form-group">
           <label for="index-contact-message" class="index-contact-section__label">תיאור הפנייה</label>
-          <textarea id="index-contact-message" name="message" class="index-contact-section__textarea" placeholder="ספרו לנו בקצרה על המקרה..." rows="4" required></textarea>
+          <textarea id="index-contact-message" name="message" class="index-contact-section__textarea" placeholder="ספרו לנו בקצרה על המקרה..." rows="4" required=""></textarea>
         </div>
 
         <!-- Privacy Consent -->
         <div class="privacy-consent index-contact-section__privacy">
           <label class="privacy-consent-label index-contact-section__privacy-label">
-            <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox index-contact-section__checkbox" required>
+            <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox index-contact-section__checkbox" required="">
             <span>קראתי ואני מסכים/ה ל<a href="/terms" target="_blank">תנאי השימוש</a> ול<a href="/privacy" target="_blank">מדיניות הפרטיות</a></span>
           </label>
         </div>
@@ -1280,21 +1280,19 @@
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:0556610567">0556610567</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%93%D7%A8%D7%95%D7%9D%2C%20%D7%9E%D7%A8%D7%9B%D7%96%20%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91" target="_blank" rel="noopener noreferrer"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="contact-text">דרום, מרכז תל אביב</span></a></li>
         </ul>
       </div>
 
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
@@ -1323,7 +1321,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/0556610567" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
