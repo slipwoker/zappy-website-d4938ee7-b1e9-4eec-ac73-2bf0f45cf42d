@@ -2,13 +2,13 @@
 
 A legal practice led by attorney Orit Anat Shahar, specializing in representing apartment buyers who have been wronged by contractors. The firm focuses on cases involving construction defects, delayed or non-delivery of apartments, and breach of contract by developers. The tone is assertive and protective, positioning the attorney as a champion for homebuyers' rights against negligent or dishonest contractors.
 
-Source: https://-d4938ee7.zappy5.app
+Source: https://example.com
 
 ---
 
 ## הקבלן עשה לך עוול? נילחם על הזכויות שלך — עו&quot;ד אורית ענת שחר
 
-URL: https://-d4938ee7.zappy5.app
+URL: https://example.com
 Description: משרד עורכי דין המתמחה בליקויי בנייה, איחור במסירה והפרות חוזה. מייצגים רוכשי דירות מול קבלנים בנחישות וללא פשרות. צרו קשר עוד היום להערכת סיכויי התביעה שלכם.
 
 הקבלן עשה לך עוול? נילחם על הזכויות שלך — עו"ד אורית ענת שחר
@@ -621,7 +621,7 @@ Description: משרד עורכי דין המתמחה בליקויי בנייה, 
 
 ## מדיניות פרטיות
 
-URL: https://-d4938ee7.zappy5.app/privacy
+URL: https://example.com/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -884,7 +884,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 ## הצהרת נגישות
 
-URL: https://-d4938ee7.zappy5.app/accessibility
+URL: https://example.com/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -1156,7 +1156,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 ## תנאי שימוש
 
-URL: https://-d4938ee7.zappy5.app/terms
+URL: https://example.com/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
@@ -1447,7 +1447,7 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 ## תודה שפנית אלינו
 
-URL: https://-d4938ee7.zappy5.app/thank-you
+URL: https://example.com/thank-you
 Description: עו"ד אורית ענת שחר - תודה שפנית אלינו
 
 תודה שפנית אלינו
