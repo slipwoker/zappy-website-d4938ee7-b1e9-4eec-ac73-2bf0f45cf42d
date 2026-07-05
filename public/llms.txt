@@ -1,0 +1,77 @@
+# עו"ד אורית ענת שחר — Generative Engine Optimization Map
+
+> A legal practice led by attorney Orit Anat Shahar, specializing in representing apartment buyers who have been wronged by contractors. The firm focuses on cases involving construction defects, delayed or non-delivery of apartments, and breach of contract by developers. The tone is assertive and protective, positioning the attorney as a champion for homebuyers' rights against negligent or dishonest contractors.
+
+---
+
+## Pages
+
+### בית
+https://-d4938ee7.zappy5.app
+משרד עורכי דין המתמחה בליקויי בנייה, איחור במסירה והפרות חוזה. מייצגים רוכשי דירות מול קבלנים בנחישות וללא פשרות. צרו קשר עוד היום להערכת סיכויי התביעה שלכם.
+
+### תודה שפנית אלינו
+https://-d4938ee7.zappy5.app/thank-you
+עו"ד אורית ענת שחר - תודה שפנית אלינו
+
+## Legal & Policy
+
+### Privacy Policy
+https://-d4938ee7.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-d4938ee7.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-d4938ee7.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://-d4938ee7.zappy5.app
+- Endpoint: https://-d4938ee7.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About עו"ד אורית ענת שחר
+A legal practice led by attorney Orit Anat Shahar, specializing in representing apartment buyers who have been wronged by contractors. The firm focuses on cases involving construction defects, delayed or non-delivery of apartments, and breach of contract by developers. The tone is assertive and protective, positioning the attorney as a champion for homebuyers' rights against negligent or dishonest contractors.
+
+## Services/Products
+- ייצוג רוכשי דירות מול קבלנים
+- טיפול בליקויי בנייה
+- תביעות על אי-מסירת דירה
+- הפרת חוזה מול קבלן
+
+## Target Audience
+- רוכשי דירות מקבלן שנתקלו בליקויי בנייה, אי-מסירה בזמן, או הפרת חוזה
+- רוכשי דירות עם ליקויים
+- נפגעי סכסוכי חוזים
+- רוכשי דירה ראשונה עם בעיות
+
+## Industry
+Legal Services - Construction Law
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-d4938ee7.zappy5.app/sitemap.xml
+- Robots: https://-d4938ee7.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-d4938ee7.zappy5.app/llms-full.txt
