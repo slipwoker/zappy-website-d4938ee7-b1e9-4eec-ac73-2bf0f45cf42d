@@ -32,9 +32,10 @@ Information about WCAG compliance and accessibility features.
 
 ## How to Contact Us
 
+- Email: orits1977@gmail.com
 - Phone: 0556610567
 - Phone (tel): tel:0556610567
-- Address: דרום, מרכז תל אביב
+- Address: דרום, מרכז תל אביב, דימונה, תל אביב , מרכז, ישראל
 
 ### Contact form
 - URL: https://example.com
